@@ -1,0 +1,36 @@
+/* External stylesheet for the list */
+
+ul {
+    width: 400px;
+    margin-right: 15 px;
+    
+}
+
+li {
+    list-style-type: none;
+    padding: 8px;
+    margin: 8px;
+    color: white;
+   
+}
+
+/* Different background color for each item */
+li:nth-child(1) {
+    background-color: green;
+}
+
+li:nth-child(2) {
+    background-color: blue;
+}
+
+li:nth-child(3) {
+    background-color: orange;
+}
+
+li:nth-child(4) {
+    background-color: purple;
+}
+
+li:nth-child(5) {
+    background-color: brown;
+}
