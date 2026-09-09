@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Display Property Exercise</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    
+       
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #222;
+}
+
+/* Div 1 - Block element */
+#div1 {
+    display: block;
+    background-color: lightblue;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+/* Span 1 - Inline element */
+#span1 {
+    display: inline;
+    background-color: coral;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* Div 2 - Hidden */
+#div2 {
+    display: none;
+}
+
+/* Span 2 - Block element */
+#span2 {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #ffe66d;
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+
+    </style>
+</head>
+<body>
+    <div id="div1">This div is a block-level element by default. It should fill the width of the screen and have a light blue background.</div>
+    <span id="span1">This span is an inline element by default and should display inline with a coral background.</span>
+    <div id="div2">This div should be hidden using CSS.</div>
+    <span id="span2">This span should be displayed as a block element and fill the width of the screen with a yellow background.</span>
+</body>
+</html>
+
+
